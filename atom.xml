@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://singularityzed.github.io/"/>
   <updated>2019-01-22T04:05:04.884Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://singularityzed.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>My New Post</title>
-    <link href="http://yoursite.com/2019/01/22/My-New-Post/"/>
-    <id>http://yoursite.com/2019/01/22/My-New-Post/</id>
+    <link href="https://singularityzed.github.io/2019/01/22/My-New-Post/"/>
+    <id>https://singularityzed.github.io/2019/01/22/My-New-Post/</id>
     <published>2019-01-22T04:05:04.000Z</published>
     <updated>2019-01-22T04:05:04.884Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/01/22/hello-world/"/>
-    <id>http://yoursite.com/2019/01/22/hello-world/</id>
+    <link href="https://singularityzed.github.io/2019/01/22/hello-world/"/>
+    <id>https://singularityzed.github.io/2019/01/22/hello-world/</id>
     <published>2019-01-22T02:33:16.635Z</published>
     <updated>2019-01-22T02:33:16.635Z</updated>
     
