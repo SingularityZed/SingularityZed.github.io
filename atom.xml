@@ -119,7 +119,7 @@
     <link href="https://singularityzed.github.io/2019/01/22/top/"/>
     <id>https://singularityzed.github.io/2019/01/22/top/</id>
     <published>2019-01-22T09:41:12.823Z</published>
-    <updated>2019-01-23T06:43:42.130Z</updated>
+    <updated>2019-01-23T06:47:11.123Z</updated>
     
     <content type="html"><![CDATA[<p>文章的Front-matter填写<code>top: true</code>就置顶了。<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p><p>这是一个示例博客。源码目录：<a href="https://github.com/mxclub/example" target="_blank" rel="noopener">https://github.com/mxclub/example</a></p><a id="more"></a><p><img class="emoji tieba" src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/捂嘴笑.png">没有更多了哦。</p>]]></content>
     
@@ -261,17 +261,17 @@
     <link href="https://singularityzed.github.io/2013/12/25/videos/"/>
     <id>https://singularityzed.github.io/2013/12/25/videos/</id>
     <published>2013-12-24T16:19:15.000Z</published>
-    <updated>2019-01-23T06:27:18.795Z</updated>
+    <updated>2019-01-23T07:35:44.586Z</updated>
     
-    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>YouKu</strong></p><video id="video" controls preload="none" poster="https://r1.ykimg.com/050E00005993A552ADBA1F04CB09FDEB?x-oss-process=image/resize,w_240/quality,q_80"><br>      <source id="mp4" src="https://v.youku.com/v_show/id_XMTQwNzMzMTc1Mg==.html?spm=a2h0k.11417342.soresults.dposter&s=cc04434c962411de83b1" type="video/mp4"><br>      </video><p><strong>Vimeo</strong></p><div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
+    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>Youtube</strong></p><div class="video-container"><iframe src="//www.youtube.com/embed/TIbZDRXM-Tg" frameborder="0" allowfullscreen></iframe></div><p><strong>Vimeo</strong></p><div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;This is a video test post.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;YouKu&lt;/strong&gt;&lt;/p&gt;
-&lt;video id=&quot;video&quot; controls preload=&quot;none&quot; poster=&quot;https://r1.ykimg.com/050E0
+&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/TIbZDRXM
       
     
     </summary>

@@ -193,7 +193,7 @@
       <link href="/2013/12/25/videos/"/>
       <url>/2013/12/25/videos/</url>
       
-        <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>YouKu</strong></p><video id="video" controls preload="none" poster="https://r1.ykimg.com/050E00005993A552ADBA1F04CB09FDEB?x-oss-process=image/resize,w_240/quality,q_80"><br>      <source id="mp4" src="https://v.youku.com/v_show/id_XMTQwNzMzMTc1Mg==.html?spm=a2h0k.11417342.soresults.dposter&s=cc04434c962411de83b1" type="video/mp4"><br>      </video><p><strong>Vimeo</strong></p><div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
+        <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>Youtube</strong></p><div class="video-container"><iframe src="//www.youtube.com/embed/TIbZDRXM-Tg" frameborder="0" allowfullscreen></iframe></div><p><strong>Vimeo</strong></p><div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
       
       
       
