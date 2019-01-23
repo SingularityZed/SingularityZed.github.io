@@ -135,7 +135,7 @@
       <link href="/2018/12/30/%E6%96%87%E7%AB%A0%E4%B8%93%E5%B1%9EBGM/"/>
       <url>/2018/12/30/%E6%96%87%E7%AB%A0%E4%B8%93%E5%B1%9EBGM/</url>
       
-        <content type="html"><![CDATA[<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章专属BGM</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018</span><span class="bullet">-12</span><span class="bullet">-30</span></span><br><span class="line"><span class="attr">music:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">song</span>        <span class="comment"># song （单曲） album （专辑） playlist （歌单） search （搜索）</span></span><br><span class="line"><span class="attr">  id:</span> <span class="number">26664345</span>      <span class="comment"># 歌曲/专辑/歌单 ID</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>详情见文档：<a href="https://xaoxuu.com/wiki/material-x/third-party-services/" target="_blank" rel="noopener">https://xaoxuu.com/wiki/material-x/third-party-services/</a></p>]]></content>
+        <content type="html"><![CDATA[<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">文章专属BGM</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018</span><span class="bullet">-12</span><span class="bullet">-30</span></span><br><span class="line"><span class="attr">music:</span></span><br><span class="line"><span class="attr">  type:</span> <span class="string">song</span>        <span class="comment"># song （单曲） album （专辑） playlist （歌单） search （搜索）</span></span><br><span class="line"><span class="attr">  id:</span> <span class="number">746319661</span>      <span class="comment"># 歌曲/专辑/歌单 ID</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
@@ -298,6 +298,8 @@
           <category> LOL </category>
           
           <category> Hearthstone </category>
+          
+          <category> Video </category>
           
       </categories>
       
