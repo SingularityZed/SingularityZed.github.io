@@ -27,7 +27,7 @@
       <link href="/2019/01/22/%E9%9A%90%E8%97%8Fmeta%E4%BF%A1%E6%81%AF/"/>
       <url>/2019/01/22/%E9%9A%90%E8%97%8Fmeta%E4%BF%A1%E6%81%AF/</url>
       
-        <content type="html"><![CDATA[<p>在Front-matter找到或者新增<code>meta</code>，需要隐藏哪个meta标签将其置为<code>false</code>。例如：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">隐藏meta信息</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">ss</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  date:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  categories:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  counter:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  updated:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  share:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  tags:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>这只会在page页面内生效而不会在列表中生效。</p>]]></content>
+        <content type="html"><![CDATA[<p>在Front-matter找到或者新增<code>meta</code>，需要隐藏哪个meta标签将其置为<code>false</code>。例如：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">隐藏meta信息</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">hide</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  date:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  categories:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  counter:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  updated:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  share:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  tags:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>这只会在page页面内生效而不会在列表中生效。</p>]]></content>
       
       
       <categories>
@@ -39,7 +39,7 @@
       
         <tags>
             
-            <tag> ss </tag>
+            <tag> hide </tag>
             
         </tags>
       
@@ -197,6 +197,12 @@
       
       
       
+        <tags>
+            
+            <tag> video </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -284,7 +290,7 @@
       <link href="/2013/12/24/categories/"/>
       <url>/2013/12/24/categories/</url>
       
-        <content type="html"><![CDATA[<p>This post contains 3 categories. Make sure your theme can display all of the categories.</p>]]></content>
+        <content type="html"><![CDATA[<p>This post contains 6 categories. Make sure your theme can display all of the categories.</p>]]></content>
       
       
       <categories>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>Tag: ss | 奇点之光</title>
+  <title>Tag: video | 奇点之光</title>
   
   
 
@@ -174,7 +174,7 @@
         <div class='l_main'>
             
     <script>
-        window.subData= { title:'标签 : ss'}
+        window.subData= { title:'标签 : video'}
     </script>
 
 
@@ -293,15 +293,22 @@
   <div class="meta" id="header-meta">
     
       <h2 class="title">
-          <a href="/2019/01/22/隐藏meta信息/">
+          <a href="/2013/12/25/videos/">
               
-                  隐藏meta信息
+                  Videos
               
           </a>
       </h2>
     
 
     
+      <time class="metatag time">
+        <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;2013-12-25
+      </time>
+    
+
+    
+      
 
     
 
@@ -313,16 +320,29 @@
 </section>
 
     <section class="article typo">
-        <p>在Front-matter找到或者新增<code>meta</code>，需要隐藏哪个meta标签将其置为<code>false</code>。例如：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">隐藏meta信息</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">ss</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  date:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  categories:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  counter:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  updated:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  share:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  tags:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
-<p>这只会在page页面内生效而不会在列表中生效。</p>
+        <p>This is a video test post.</p>
+<p><strong>youku</strong></p>
+<iframe height="480" width="720" src="https://player.youku.com/embed/XMTg4NTk1MjA4" frameborder="0" 'allowfullscreen'=""></iframe>
+
+<hr>
+<p> <strong>两种方式进行展示视频</strong><br>第一种，iframe不多解释</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">height</span>=<span class="string">480</span> <span class="attr">width</span>=<span class="string">720</span> <span class="attr">src</span>=<span class="string">'https://player.youku.com/embed/XMTg4NTk1MjA4'</span> <span class="attr">frameborder</span>=<span class="string">0</span> '<span class="attr">allowfullscreen</span>'&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>第二种， hexo的youku插件</p>
+<p>在博客站点目录下执行<code>npm install hexo-tag-youku --save</code>，</p>
+<p>成功后会在子目录<code>node_modules</code>下生成<code>hexo-tag-youku</code>目录<br>但此方法不好更改为https。</p>
+<h2 id="使用范例"><a href="#使用范例" class="headerlink" title="使用范例"></a>使用范例</h2><p>如要插入优酷视频“赌侠”，查看它的链接为<code>https://player.youku.com/embed/XMTg4NTk1MjA4</code>，那么就将其中的id提取出来，使用下述代码即可：<br><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">youku</span> 720 480 %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">XMTQ2MjU2NTU2OA</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endyouku</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure></p>
+<p>其中，参数720指定视频展示的高度为720px，480则指定视频展示的宽度为480px，如不写明这两项参数则默认值为高度480px，宽度400px。</p>
+<p><strong>注意:</strong></p>
+<p>混合内容：页面是通过HTTPS加载的，但请求了一个不安全的插件资源</p>
+<p><a href="http://player.youku.com/embed/XMTg4NTk1MjA4" target="_blank" rel="noopener">http://player.youku.com/embed/XMTg4NTk1MjA4</a></p>
+<p>此请求已被阻止; 内容必须通过HTTPS提供，<br>即改为<br><a href="https://player.youku.com/embed/XMTg4NTk1MjA4" target="_blank" rel="noopener">https://player.youku.com/embed/XMTg4NTk1MjA4</a></p>
 
         
 
         
             <div class="full-width auto-padding tags">
                 
-                    <a href="/tags/ss/"><i class="fas fa-hashtag fa-fw"></i>ss</a>
+                    <a href="/tags/video/"><i class="fas fa-hashtag fa-fw"></i>video</a>
                 
             </div>
         
@@ -495,7 +515,7 @@
 </header>
 
     <div class="content material">
-      <a href="/tags/Angular/" style="font-size: 14px; color: #999">Angular</a> <a href="/tags/Hearthstone/" style="font-size: 14px; color: #999">Hearthstone</a> <a href="/tags/Java/" style="font-size: 14px; color: #999">Java</a> <a href="/tags/LOL/" style="font-size: 14px; color: #999">LOL</a> <a href="/tags/Python/" style="font-size: 14px; color: #999">Python</a> <a href="/tags/ss/" style="font-size: 14px; color: #999">ss</a>
+      <a href="/tags/Angular/" style="font-size: 14px; color: #999">Angular</a> <a href="/tags/Hearthstone/" style="font-size: 14px; color: #999">Hearthstone</a> <a href="/tags/Java/" style="font-size: 14px; color: #999">Java</a> <a href="/tags/LOL/" style="font-size: 14px; color: #999">LOL</a> <a href="/tags/Python/" style="font-size: 14px; color: #999">Python</a> <a href="/tags/hide/" style="font-size: 14px; color: #999">hide</a> <a href="/tags/video/" style="font-size: 14px; color: #999">video</a>
     </div>
   </section>
 
