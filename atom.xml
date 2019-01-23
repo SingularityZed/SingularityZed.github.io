@@ -115,6 +115,27 @@
   </entry>
   
   <entry>
+    <title>置顶</title>
+    <link href="https://singularityzed.github.io/2019/01/22/top/"/>
+    <id>https://singularityzed.github.io/2019/01/22/top/</id>
+    <published>2019-01-22T09:41:12.823Z</published>
+    <updated>2019-01-23T06:43:42.130Z</updated>
+    
+    <content type="html"><![CDATA[<p>文章的Front-matter填写<code>top: true</code>就置顶了。<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p><p>这是一个示例博客。源码目录：<a href="https://github.com/mxclub/example" target="_blank" rel="noopener">https://github.com/mxclub/example</a></p><a id="more"></a><p><img class="emoji tieba" src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/捂嘴笑.png">没有更多了哦。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;文章的Front-matter填写&lt;code&gt;top: true&lt;/code&gt;就置顶了。&lt;br&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;top:&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;这是一个示例博客。源码目录：&lt;a href=&quot;https://github.com/mxclub/example&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/mxclub/example&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="教程" scheme="https://singularityzed.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>My New Post</title>
     <link href="https://singularityzed.github.io/2019/01/22/My-New-Post/"/>
     <id>https://singularityzed.github.io/2019/01/22/My-New-Post/</id>
@@ -442,38 +463,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Tags</title>
-    <link href="https://singularityzed.github.io/2013/12/24/tags/"/>
-    <id>https://singularityzed.github.io/2013/12/24/tags/</id>
-    <published>2013-12-24T15:29:53.000Z</published>
-    <updated>2019-01-23T06:10:25.530Z</updated>
-    
-    <content type="html"><![CDATA[<p>This post contains 3 tags. Make sure your theme can display all of the tags.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;This post contains 3 tags. Make sure your theme can display all of the tags.&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="https://singularityzed.github.io/tags/Java/"/>
-    
-      <category term="Python" scheme="https://singularityzed.github.io/tags/Python/"/>
-    
-      <category term="Angular" scheme="https://singularityzed.github.io/tags/Angular/"/>
-    
-      <category term="LOL" scheme="https://singularityzed.github.io/tags/LOL/"/>
-    
-      <category term="Hearthstone" scheme="https://singularityzed.github.io/tags/Hearthstone/"/>
     
   </entry>
   
