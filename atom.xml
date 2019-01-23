@@ -261,9 +261,9 @@
     <link href="https://singularityzed.github.io/2013/12/25/videos/"/>
     <id>https://singularityzed.github.io/2013/12/25/videos/</id>
     <published>2013-12-24T16:19:15.000Z</published>
-    <updated>2019-01-23T08:46:43.859Z</updated>
+    <updated>2019-01-23T08:54:09.756Z</updated>
     
-    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>youku</strong></p><iframe height="480" width="720" src="https://player.youku.com/embed/XMTg4NTk1MjA4" frameborder="0" 'allowfullscreen'=""></iframe><hr><iframe height="480" width="400" src="http://player.youku.com/embed/XMTg4NTk1MjA4" frameborder="0" allowfullscreen></iframe><p><strong>注意:</strong></p><p>混合内容：页面是通过HTTPS加载的，但请求了一个不安全的插件资源</p><p><a href="http://player.youku.com/embed/XMTg4NTk1MjA4" target="_blank" rel="noopener">http://player.youku.com/embed/XMTg4NTk1MjA4</a></p><p>此请求已被阻止; 内容必须通过HTTPS提供，<br>即改为<br><a href="https://player.youku.com/embed/XMTg4NTk1MjA4" target="_blank" rel="noopener">https://player.youku.com/embed/XMTg4NTk1MjA4</a></p>]]></content>
+    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>youku</strong></p><iframe height="720" width="480" src="http://player.youku.com/embed/XMTg4NTk1MjA4" frameborder="0" allowfullscreen></iframe><hr><p> <strong>两种方式进行展示视频</strong><br>第一种，iframe不多解释</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">height</span>=<span class="string">480</span> <span class="attr">width</span>=<span class="string">720</span> <span class="attr">src</span>=<span class="string">'https://player.youku.com/embed/XMTg4NTk1MjA4'</span> <span class="attr">frameborder</span>=<span class="string">0</span> '<span class="attr">allowfullscreen</span>'&gt;</span><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br></pre></td></tr></table></figure><p>第二种， hexo的youku插件</p><p>在博客站点目录下执行<code>npm install hexo-tag-youku --save</code>，成功后会在子目录<code>node_modules</code>下生成<code>hexo-tag-youku</code>目录。</p><h2 id="使用范例"><a href="#使用范例" class="headerlink" title="使用范例"></a>使用范例</h2><p>如要插入优酷视频“赌侠”，查看它的链接为<code>https://player.youku.com/embed/XMTg4NTk1MjA4</code>，那么就将其中的id提取出来，使用下述代码即可：<br><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">youku</span> 720 480 %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">XMTQ2MjU2NTU2OA</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endyouku</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure></p><p>其中，参数720指定视频展示的高度为720px，480则指定视频展示的宽度为480px，如不写明这两项参数则默认值为高度480px，宽度400px。</p><p><strong>注意:</strong></p><p>混合内容：页面是通过HTTPS加载的，但请求了一个不安全的插件资源</p><p><a href="http://player.youku.com/embed/XMTg4NTk1MjA4" target="_blank" rel="noopener">http://player.youku.com/embed/XMTg4NTk1MjA4</a></p><p>此请求已被阻止; 内容必须通过HTTPS提供，<br>即改为<br><a href="https://player.youku.com/embed/XMTg4NTk1MjA4" target="_blank" rel="noopener">https://player.youku.com/embed/XMTg4NTk1MjA4</a></p>]]></content>
     
     <summary type="html">
     
@@ -271,7 +271,7 @@
       
         &lt;p&gt;This is a video test post.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;youku&lt;/strong&gt;&lt;/p&gt;
-&lt;iframe height=&quot;480&quot; width=&quot;720&quot; src=&quot;https://player.youku.com/embed/XMTg4NT
+&lt;iframe height=&quot;720&quot; width=&quot;480&quot; src=&quot;http://player.youku.com/embed/XMTg4NTk
       
     
     </summary>
