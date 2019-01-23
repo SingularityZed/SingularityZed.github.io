@@ -418,7 +418,7 @@
     <link href="https://singularityzed.github.io/2013/12/24/categories/"/>
     <id>https://singularityzed.github.io/2013/12/24/categories/</id>
     <published>2013-12-24T15:30:09.000Z</published>
-    <updated>2019-01-22T09:40:12.168Z</updated>
+    <updated>2019-01-23T06:04:31.732Z</updated>
     
     <content type="html"><![CDATA[<p>This post contains 3 categories. Make sure your theme can display all of the categories.</p>]]></content>
     
@@ -432,11 +432,15 @@
     
     </summary>
     
-      <category term="Foo" scheme="https://singularityzed.github.io/categories/Foo/"/>
+      <category term="Java" scheme="https://singularityzed.github.io/categories/Java/"/>
     
-      <category term="Bar" scheme="https://singularityzed.github.io/categories/Foo/Bar/"/>
+      <category term="Python" scheme="https://singularityzed.github.io/categories/Java/Python/"/>
     
-      <category term="Baz" scheme="https://singularityzed.github.io/categories/Foo/Bar/Baz/"/>
+      <category term="Angular" scheme="https://singularityzed.github.io/categories/Java/Python/Angular/"/>
+    
+      <category term="LOL" scheme="https://singularityzed.github.io/categories/Java/Python/Angular/LOL/"/>
+    
+      <category term="Hearthstone" scheme="https://singularityzed.github.io/categories/Java/Python/Angular/LOL/Hearthstone/"/>
     
     
   </entry>

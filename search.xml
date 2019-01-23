@@ -289,11 +289,15 @@
       
       <categories>
           
-          <category> Foo </category>
+          <category> Java </category>
           
-          <category> Bar </category>
+          <category> Python </category>
           
-          <category> Baz </category>
+          <category> Angular </category>
+          
+          <category> LOL </category>
+          
+          <category> Hearthstone </category>
           
       </categories>
       
@@ -326,11 +330,17 @@
       
         <tags>
             
-            <tag> Foo </tag>
+            <tag> Java </tag>
             
-            <tag> Bar </tag>
+            <tag> Python </tag>
             
-            <tag> Baz </tag>
+            <tag> Angular </tag>
+            
+            <tag> LOL </tag>
+            
+            <tag> Hearthstone </tag>
+            
+            <tag> ... </tag>
             
         </tags>
       
