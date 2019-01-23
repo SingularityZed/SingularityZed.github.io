@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://singularityzed.github.io/2013/12/24/categories/</loc>
+    <loc>https://singularityzed.github.io/2013/12/25/videos/</loc>
     
-    <lastmod>2019-01-23T06:04:31.732Z</lastmod>
+    <lastmod>2019-01-23T06:27:18.795Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://singularityzed.github.io/2013/12/24/tags/</loc>
     
-    <lastmod>2019-01-23T06:03:51.626Z</lastmod>
+    <lastmod>2019-01-23T06:10:25.530Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://singularityzed.github.io/2013/12/24/categories/</loc>
+    
+    <lastmod>2019-01-23T06:04:31.732Z</lastmod>
     
   </url>
   
@@ -72,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/nexus/index.html</loc>
+    <loc>https://singularityzed.github.io/wiki/material-x/usecdn/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.794Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/material-x/usecdn/index.html</loc>
+    <loc>https://singularityzed.github.io/wiki/nexus/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.794Z</lastmod>
     
@@ -100,14 +107,14 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/material-x/index.html</loc>
+    <loc>https://singularityzed.github.io/wiki/material-x/style/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.790Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/material-x/style/index.html</loc>
+    <loc>https://singularityzed.github.io/wiki/material-x/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.790Z</lastmod>
     
@@ -121,14 +128,14 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/material-x/config/index.html</loc>
+    <loc>https://singularityzed.github.io/wiki/material-x/front-matter/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.788Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/material-x/front-matter/index.html</loc>
+    <loc>https://singularityzed.github.io/wiki/material-x/config/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.788Z</lastmod>
     
@@ -142,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/heartmate/index.html</loc>
+    <loc>https://singularityzed.github.io/wiki/hexo.sh/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.785Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/hexo.sh/index.html</loc>
+    <loc>https://singularityzed.github.io/wiki/heartmate/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.785Z</lastmod>
     
@@ -170,13 +177,6 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/view.html</loc>
-    
-    <lastmod>2019-01-23T05:51:04.782Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://singularityzed.github.io/wiki/axkit/user_defaults.html</loc>
     
     <lastmod>2019-01-23T05:51:04.782Z</lastmod>
@@ -184,14 +184,21 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/theme.html</loc>
+    <loc>https://singularityzed.github.io/wiki/axkit/view.html</loc>
+    
+    <lastmod>2019-01-23T05:51:04.782Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://singularityzed.github.io/wiki/axkit/timer.html</loc>
     
     <lastmod>2019-01-23T05:51:04.781Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/timer.html</loc>
+    <loc>https://singularityzed.github.io/wiki/axkit/theme.html</loc>
     
     <lastmod>2019-01-23T05:51:04.781Z</lastmod>
     
@@ -254,13 +261,6 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/layer.html</loc>
-    
-    <lastmod>2019-01-23T05:51:04.775Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://singularityzed.github.io/wiki/axkit/index.html</loc>
     
     <lastmod>2019-01-23T05:51:04.775Z</lastmod>
@@ -268,14 +268,21 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/image.html</loc>
+    <loc>https://singularityzed.github.io/wiki/axkit/layer.html</loc>
+    
+    <lastmod>2019-01-23T05:51:04.775Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://singularityzed.github.io/wiki/axkit/image_view.html</loc>
     
     <lastmod>2019-01-23T05:51:04.774Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/image_view.html</loc>
+    <loc>https://singularityzed.github.io/wiki/axkit/image.html</loc>
     
     <lastmod>2019-01-23T05:51:04.774Z</lastmod>
     
@@ -303,14 +310,14 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/dictionary.html</loc>
+    <loc>https://singularityzed.github.io/wiki/axkit/date.html</loc>
     
     <lastmod>2019-01-23T05:51:04.771Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/date.html</loc>
+    <loc>https://singularityzed.github.io/wiki/axkit/dictionary.html</loc>
     
     <lastmod>2019-01-23T05:51:04.771Z</lastmod>
     
@@ -331,14 +338,14 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/changelog.html</loc>
+    <loc>https://singularityzed.github.io/wiki/axkit/color.html</loc>
     
     <lastmod>2019-01-23T05:51:04.769Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/wiki/axkit/color.html</loc>
+    <loc>https://singularityzed.github.io/wiki/axkit/changelog.html</loc>
     
     <lastmod>2019-01-23T05:51:04.769Z</lastmod>
     
@@ -422,13 +429,6 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/2019/01/22/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/</loc>
-    
-    <lastmod>2019-01-22T09:40:12.175Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://singularityzed.github.io/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/</loc>
     
     <lastmod>2019-01-22T09:40:12.175Z</lastmod>
@@ -436,16 +436,9 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/2019/01/22/top/</loc>
+    <loc>https://singularityzed.github.io/2019/01/22/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/</loc>
     
-    <lastmod>2019-01-22T09:40:12.174Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://singularityzed.github.io/2013/12/25/videos/</loc>
-    
-    <lastmod>2019-01-22T09:40:12.174Z</lastmod>
+    <lastmod>2019-01-22T09:40:12.175Z</lastmod>
     
   </url>
   
@@ -492,14 +485,14 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/2013/12/25/excerpts/</loc>
+    <loc>https://singularityzed.github.io/2013/12/24/elements/</loc>
     
     <lastmod>2019-01-22T09:40:12.169Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/2013/12/24/elements/</loc>
+    <loc>https://singularityzed.github.io/2013/12/25/excerpts/</loc>
     
     <lastmod>2019-01-22T09:40:12.169Z</lastmod>
     

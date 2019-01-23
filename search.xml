@@ -86,25 +86,6 @@
     
     
     <entry>
-      <title>置顶</title>
-      <link href="/2019/01/22/top/"/>
-      <url>/2019/01/22/top/</url>
-      
-        <content type="html"><![CDATA[<p>文章的Front-matter填写<code>top: true</code>就置顶了。<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p><p>这是一个示例博客。源码目录：<a href="https://github.com/mxclub/example" target="_blank" rel="noopener">https://github.com/mxclub/example</a></p><a id="more"></a><p><img class="emoji tieba" src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/捂嘴笑.png">没有更多了哦。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 教程 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>My New Post</title>
       <link href="/2019/01/22/My-New-Post/"/>
       <url>/2019/01/22/My-New-Post/</url>
@@ -193,7 +174,7 @@
       <link href="/2013/12/25/videos/"/>
       <url>/2013/12/25/videos/</url>
       
-        <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>Youtube</strong></p><div class="video-container"><iframe src="//www.youtube.com/embed/TIbZDRXM-Tg" frameborder="0" allowfullscreen></iframe></div><p><strong>Vimeo</strong></p><div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
+        <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>YouKu</strong></p><video id="video" controls preload="none" poster="https://r1.ykimg.com/050E00005993A552ADBA1F04CB09FDEB?x-oss-process=image/resize,w_240/quality,q_80"><br>      <source id="mp4" src="https://v.youku.com/v_show/id_XMTQwNzMzMTc1Mg==.html?spm=a2h0k.11417342.soresults.dposter&s=cc04434c962411de83b1" type="video/mp4"><br>      </video><p><strong>Vimeo</strong></p><div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
       
       
       
@@ -339,8 +320,6 @@
             <tag> LOL </tag>
             
             <tag> Hearthstone </tag>
-            
-            <tag> ... </tag>
             
         </tags>
       
