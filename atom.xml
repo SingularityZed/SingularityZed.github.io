@@ -261,9 +261,9 @@
     <link href="https://singularityzed.github.io/2013/12/25/videos/"/>
     <id>https://singularityzed.github.io/2013/12/25/videos/</id>
     <published>2013-12-24T16:19:15.000Z</published>
-    <updated>2019-01-23T07:48:52.768Z</updated>
+    <updated>2019-01-23T07:50:44.262Z</updated>
     
-    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>youku</strong></p><iframe height="480" width="720" src="http://player.youku.com/embed/XMTg4NTk1MjA4" frameborder="0" 'allowfullscreen'=""></iframe><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"http://home.ustc.edu.cn/~mmmwhy/GEM.mp4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
+    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>youku</strong></p><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"http://player.youku.com/embed/XMTg4NTk1MjA4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
     
     <summary type="html">
     
@@ -271,7 +271,7 @@
       
         &lt;p&gt;This is a video test post.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;youku&lt;/strong&gt;&lt;/p&gt;
-&lt;iframe height=&quot;480&quot; width=&quot;720&quot; src=&quot;http://player.youku.com/embed/XMTg4NTk
+&lt;div id=&quot;dplayer0&quot; class=&quot;dplayer hexo-tag-dplayer-mark&quot; style=&quot;margin-botto
       
     
     </summary>
