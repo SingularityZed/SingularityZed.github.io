@@ -193,7 +193,7 @@
       <link href="/2013/12/25/videos/"/>
       <url>/2013/12/25/videos/</url>
       
-        <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>youku</strong></p><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"http://player.youku.com/embed/XMTg4NTk1MjA4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
+        <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>youku</strong></p><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"http://player.youku.com/embed/XMTg4NTk1MjA4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script><p> Idina Menze和Caleb Hyles激情对唱Let It Go：</p><iframe height="498" width="510" src="http://player.youku.com/embed/XNjcyMDU4Njg0" frameborder="0" allowfullscreen><br></iframe>]]></content>
       
       
       
