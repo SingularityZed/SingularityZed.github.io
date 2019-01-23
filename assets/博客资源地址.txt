@@ -1,0 +1,45 @@
+https://cdn.jsdelivr.net/gh/user/repo@version/file
+
+https://cdn.jsdelivr.net/gh/singularityzed/asset@18/avatar/avatar.png
+
+
+https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/avatar/avatar.png
+
+
+
+https://cdn.jsdelivr.net/gh/singularityzed/assets@19.1.9/
+
+https://cdn.jsdelivr.net/gh/singularityzed/volantis@1.0
+
+
+https://cdn.jsdelivr.net/gh/singularityzed/cdn-material-x@19.1.18/
+
+
+
+https://img.vim-cn.com/62/24d951b5b9a8728a0adfd20ee5e7af4d1bd971.jpg
+
+
+
+https://img.vim-cn.com/4d/467c333a749afe74ee101cae8068b8e3a3a3ff.webp
+
+
+git push -f https://$GITHUB_KEY@github.com/SingularityZed/assets.git `npm 5.6.0 patch -m "%s [ci skip]"` 
+ 
+git push -f https://$GITHUB_KEY@github.com/SingularityZed/cdn.git HEAD:master #将新版本文件推送回 Github
+ https://github.com/SingularityZed/assets
+ 
+ 
+ 
+ https://cdn.jsdelivr.net/gh/singularityzed/assets@latest/
+ 
+ 
+ /package/gh/:user/:repo@:version/:structure
+GitHub更新后如何更新cdn，为什么cdn上没有找到更新后的文件。我需要做些什么吗
+
+
+https://bbsimage.res.meizu.com/flymebbs/forum/201805/01/101341e4qw573umq67mqqq.jpg
+
+https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/d31b0ef41bd5ad6e0189bc0e8ccb39dbb7fd3ce6.jpg
+
+
+https://singularityzed.github.io/assets/apple.jpg
