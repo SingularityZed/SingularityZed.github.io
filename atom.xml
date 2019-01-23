@@ -261,17 +261,17 @@
     <link href="https://singularityzed.github.io/2013/12/25/videos/"/>
     <id>https://singularityzed.github.io/2013/12/25/videos/</id>
     <published>2013-12-24T16:19:15.000Z</published>
-    <updated>2019-01-23T07:35:44.586Z</updated>
+    <updated>2019-01-23T07:37:01.889Z</updated>
     
-    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>Youtube</strong></p><div class="video-container"><iframe src="//www.youtube.com/embed/TIbZDRXM-Tg" frameborder="0" allowfullscreen></iframe></div><p><strong>Vimeo</strong></p><div class="video-container"><iframe src="//player.vimeo.com/video/82090131" frameborder="0" allowfullscreen></iframe></div>]]></content>
+    <content type="html"><![CDATA[<p>This is a video test post.</p><p><strong>youku</strong></p><iframe height="480" width="720" src="http://player.youku.com/embed/XMTg4NTk1MjA4" frameborder="0" 'allowfullscreen'=""></iframe>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;This is a video test post.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/embed/TIbZDRXM
+&lt;p&gt;&lt;strong&gt;youku&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe height=&quot;480&quot; width=&quot;720&quot; src=&quot;http://player.youku.com/embed/XMTg4NTk
       
     
     </summary>
