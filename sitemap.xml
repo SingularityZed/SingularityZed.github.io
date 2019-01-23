@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://singularityzed.github.io/2013/12/26/images/</loc>
+    
+    <lastmod>2019-01-23T03:57:33.722Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://singularityzed.github.io/friends/index.html</loc>
     
     <lastmod>2019-01-22T09:48:54.651Z</lastmod>
@@ -65,6 +72,13 @@
   </url>
   
   <url>
+    <loc>https://singularityzed.github.io/2013/12/25/videos/</loc>
+    
+    <lastmod>2019-01-22T09:40:12.174Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://singularityzed.github.io/2019/01/22/top/</loc>
     
     <lastmod>2019-01-22T09:40:12.174Z</lastmod>
@@ -72,9 +86,9 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/2013/12/25/videos/</loc>
+    <loc>https://singularityzed.github.io/2013/12/25/tag-plugins/</loc>
     
-    <lastmod>2019-01-22T09:40:12.174Z</lastmod>
+    <lastmod>2019-01-22T09:40:12.173Z</lastmod>
     
   </url>
   
@@ -86,9 +100,9 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/2013/12/25/tag-plugins/</loc>
+    <loc>https://singularityzed.github.io/2013/12/25/no-title/</loc>
     
-    <lastmod>2019-01-22T09:40:12.173Z</lastmod>
+    <lastmod>2019-01-22T09:40:12.172Z</lastmod>
     
   </url>
   
@@ -107,21 +121,7 @@
   </url>
   
   <url>
-    <loc>https://singularityzed.github.io/2013/12/25/no-title/</loc>
-    
-    <lastmod>2019-01-22T09:40:12.172Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://singularityzed.github.io/2013/12/24/link-post-without-title/</loc>
-    
-    <lastmod>2019-01-22T09:40:12.171Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://singularityzed.github.io/2013/12/26/images/</loc>
     
     <lastmod>2019-01-22T09:40:12.171Z</lastmod>
     
