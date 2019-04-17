@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>Category: Angular | 奇点之光</title>
+  <title>共用一个评论框 | 奇点之光</title>
   
   
 
@@ -172,62 +172,21 @@
     <div class="l_body">
     <div class='container clearfix'>
         <div class='l_main'>
-            
-    <script>
-        window.subData= { title:'分类 : Angular'}
-    </script>
-
-
-<section class="post-list">
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          <div class="post-wrapper">
-            <article class="post reveal ">
-    
+            <article id="post" class="post white-box article-type-post" itemscope="" itemprop="blogPost">
+  
 <section class="meta">
   
   <div class="meta" id="header-meta">
     
-      <h2 class="title">
-          <a href="/2019/03/02/top/">
-              
-                  置顶
-              
-          </a>
-      </h2>
+      
+          <h1 class="title">共用一个评论框</h1>
+      
     
 
+    
+      <time class="metatag time">
+        <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;2019-03-02
+      </time>
     
 
     
@@ -241,108 +200,183 @@
     
 
     
-
-    
-      <div class="metatag top">
-        <i class="fas fa-angle-double-up fa-fw" aria-hidden="true"></i>&nbsp;置顶
-      </div>
-    
-
-  </div>
-</section>
-
-    <section class="article typo">
-        <p>文章的Front-matter填写<code>top: true</code>就置顶了。<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
-<p>这是一个示例博客。源码目录：<a href="https://github.com/mxclub/example" target="_blank" rel="noopener">https://github.com/mxclub/example</a></p>
-        
-            <div class="readmore">
-                <a href="/2019/03/02/top/" class="flat-box">
-                    <i class="fas fa-book-open fa-fw" aria-hidden="true"></i>
-                    阅读全文
-                </a>
-            </div>
-        
-
-        
-    </section>
-</article>
-
-          </div>
-        
       
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-      
-        <div class="post-wrapper">
-          <article class="post reveal ">
-    
-<section class="meta">
-  
-  <div class="meta" id="header-meta">
-    
-      <h2 class="title">
-          <a href="/2013/12/24/categories/">
-              
-                  Categories
-              
-          </a>
-      </h2>
-    
-
-    
-      <time class="metatag time">
-        <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;2013-12-24
-      </time>
-    
-
-    
-      
-    
-    <div class="metatag cats">
-        <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;<a class="categories" href="/categories/Java/">Java</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/">Python</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/Angular/">Angular</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/Angular/LOL/">LOL</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/Angular/LOL/Hearthstone/">Hearthstone</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/Angular/LOL/Hearthstone/Video/">Video</a>
-    </div>
-
-
-    
-
-    
-
-    
-
-  </div>
-</section>
-
-    <section class="article typo">
-        <p>This post contains 6 categories. Make sure your theme can display all of the categories.</p>
-
-        
-
-        
-    </section>
-</article>
-
+        <div class="metatag browse busuanzi"><i class="fas fa-eye fa-fw" aria-hidden="true"></i>
+          &nbsp;<span id="busuanzi_value_page_pv"><i class="fas fa-spinner fa-spin fa-fw" aria-hidden="true"></i></span>
         </div>
       
     
+
+    
+
+  </div>
 </section>
 
+    <section class="article typo">
+      <div class="article-entry" itemprop="articleBody">
+        <p>写法示例：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">共用一个评论框</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">你觉得共用一个评论框有意义吗？</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+      </div>
+        
+          <section class="meta" id="footer-meta">
+            
+              <time class="metatag time" itemprop="dateUpdated" datetime="2019-01-22T17:40:12+08:00" content="2019-01-22"><i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>
+                &nbsp;2019-01-22
+              </time>
+            
+            
+            
+              
+  <div class="metatag share -mob-share-list">
+    <i class="left fas fa-share-alt fa-fw" aria-hidden="true"></i>
+    <div class="-mob-share-list share-body">
+      
+        
+          <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer" href="http://connect.qq.com/widget/shareqq/index.html?url=https://singularityzed.github.io/2019/03/02/共用一个评论框/&title=共用一个评论框 | 奇点之光&summary=">
+            
+              <img src="https://cdn.jsdelivr.net/gh/singularityzed/assets@19.1.9/logo/128/qq.png">
+            
+          </a>
+        
+      
+        
+          <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://singularityzed.github.io/2019/03/02/共用一个评论框/&title=共用一个评论框 | 奇点之光&summary=">
+            
+              <img src="https://cdn.jsdelivr.net/gh/singularityzed/assets@19.1.9/logo/128/qzone.png">
+            
+          </a>
+        
+      
+        
+          <a class="qrcode" rel="external nofollow noopener noreferrer" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACsElEQVR42u3a0W7CMAwFUP7/p9kr0mh3bceISadPEyupT5AS1/HjEV/Pl+v3J6+f3//3eXHl33psXHh4eHiD0LcfPBk5maY3keDh4eGt8a5CubrnfjPIx0lC742Dh4eH9228+3uSraJ6Dx4eHt7/5fVS6uRbSVqPh4eH9z28fOikxJCQ8qLwh2oteHh4eDEvL79+z98r53t4eHh441P16mI9ORLLE/dCtHh4eHgLvGo5NQk9AZ9K2aM78fDw8I7yJkt/XozIp2PSjPVmHDw8PLw1Xl5yvZ+CedNVniiXG1Xx8PDwDvGq20A1Lc7vqR6k5ZsWHh4e3gYvb3KaFBSO1U7iHwYPDw9vg1cl5Utz3sI12TYK53t4eHh4R3n5cpyUeifFiJwRxYCHh4e3wMuP7eflg2pY1cnFw8PD+wzvbPkgX8rz0aoJOh4eHt42Lw+0WlTNE/SknDHa9/Dw8PCO8vLWpUlwk4O0Z/F65KHg4eHhtXj5IVbvAKw3WhJ6/jPg4eHhneVVX+/z4/+9dLmQ9OPh4eF9hFdIVYvbQLWEkW8bl8/Fw8PDW+NN2q3y0KvFjuo9b8bHw8PDW+b10t984a4ehvWari43Bjw8PLxDvGT9rBZw5wWFavvCH/Hj4eHhrfEmTQCTRLm36BcO7fDw8PDWeJMWq/yTZDqq09psusLDw8M7yssLBGeX9V5ZpPDGgIeHh3eUVy0N5JvHxsQVEnQ8PDy8o7xn8ZqkxT1kXv54Mw4eHh7eAq+61FbBeRJcTZcLB2B4eHh4C7x8M+glytWNpDfa5VPw8PDw1nh5i9XZskVewui1guHh4eF9M+8+xMnhWRLb+saAh4eHN+ZVE9xqs1SvxNycVzw8PLwW79ShV55Y9yauvM3g4eHhLfAOvPAXH9MrRvSmDw8PD+8o7weZGH2C6Ke45AAAAABJRU5ErkJggg==">
+          
+            <img src="https://cdn.jsdelivr.net/gh/singularityzed/assets@19.1.9/logo/128/wechat.png">
+          
+          </a>
+        
+      
+        
+          <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer" href="http://service.weibo.com/share/share.php?url=https://singularityzed.github.io/2019/03/02/共用一个评论框/&title=共用一个评论框 | 奇点之光&summary=">
+            
+              <img src="https://cdn.jsdelivr.net/gh/singularityzed/assets@19.1.9/logo/128/weibo.png">
+            
+          </a>
+        
+      
+        
+          <a class="qrcode" rel="external nofollow noopener noreferrer" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACsElEQVR42u3a0W7CMAwFUP7/p9kr0mh3bceISadPEyupT5AS1/HjEV/Pl+v3J6+f3//3eXHl33psXHh4eHiD0LcfPBk5maY3keDh4eGt8a5CubrnfjPIx0lC742Dh4eH9228+3uSraJ6Dx4eHt7/5fVS6uRbSVqPh4eH9z28fOikxJCQ8qLwh2oteHh4eDEvL79+z98r53t4eHh441P16mI9ORLLE/dCtHh4eHgLvGo5NQk9AZ9K2aM78fDw8I7yJkt/XozIp2PSjPVmHDw8PLw1Xl5yvZ+CedNVniiXG1Xx8PDwDvGq20A1Lc7vqR6k5ZsWHh4e3gYvb3KaFBSO1U7iHwYPDw9vg1cl5Utz3sI12TYK53t4eHh4R3n5cpyUeifFiJwRxYCHh4e3wMuP7eflg2pY1cnFw8PD+wzvbPkgX8rz0aoJOh4eHt42Lw+0WlTNE/SknDHa9/Dw8PCO8vLWpUlwk4O0Z/F65KHg4eHhtXj5IVbvAKw3WhJ6/jPg4eHhneVVX+/z4/+9dLmQ9OPh4eF9hFdIVYvbQLWEkW8bl8/Fw8PDW+NN2q3y0KvFjuo9b8bHw8PDW+b10t984a4ehvWari43Bjw8PLxDvGT9rBZw5wWFavvCH/Hj4eHhrfEmTQCTRLm36BcO7fDw8PDWeJMWq/yTZDqq09psusLDw8M7yssLBGeX9V5ZpPDGgIeHh3eUVy0N5JvHxsQVEnQ8PDy8o7xn8ZqkxT1kXv54Mw4eHh7eAq+61FbBeRJcTZcLB2B4eHh4C7x8M+glytWNpDfa5VPw8PDw1nh5i9XZskVewui1guHh4eF9M+8+xMnhWRLb+saAh4eHN+ZVE9xqs1SvxNycVzw8PLwW79ShV55Y9yauvM3g4eHhLfAOvPAXH9MrRvSmDw8PD+8o7weZGH2C6Ke45AAAAABJRU5ErkJggg==">
+          
+            <img src="https://cdn.jsdelivr.net/gh/singularityzed/assets@19.1.9/logo/128/qrcode.png">
+          
+          </a>
+        
+      
+    </div>
+  </div>
 
 
-<!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
+            
+          </section>
+        
+
+        
+            <div class="prev-next">
+                
+                    <section class="prev">
+                        <span class="art-item-left">
+                            <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页</h6>
+                            <h4>
+                                <a href="/2019/03/02/多语言/" rel="prev" title="多语言">
+                                  
+                                      多语言
+                                  
+                                </a>
+                            </h4>
+                            
+                        </span>
+                    </section>
+                
+                
+                    <section class="next">
+                        <span class="art-item-right" aria-hidden="true">
+                            <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
+                            <h4>
+                                <a href="/2019/03/02/top/" rel="prev" title="置顶">
+                                    
+                                        置顶
+                                    
+                                </a>
+                            </h4>
+                            
+                        </span>
+                    </section>
+                
+            </div>
+        
+
+    </section>
+
+</article>
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
 
 
+<br>
+
+<!-- 显示推荐文章和评论 -->
+
+
+
+  <article class="post white-box comments">
+    <section class="article typo">
+
+      
+        
+
+    <div class="recommended_posts">
+        <h4><i class="fas fa-bookmark fa-fw" aria-hidden="true"></i>&nbsp;相关文章</h4>
+        <ul>
+            
+                <li><a href="https://singularityzed.github.io/2019/03/02/摘要注意事项/">摘要注意事项</a></li>
+            
+                <li><a href="https://singularityzed.github.io/2019/03/02/多语言/">多语言</a></li>
+            
+                <li><a href="https://singularityzed.github.io/2019/03/02/top/">置顶</a></li>
+            
+                <li><a href="https://singularityzed.github.io/2019/03/02/hello-world/">Hello World</a></li>
+            
+        </ul>
+    </div>
+
+
+      
+
+      
+        <h4><i class="fas fa-comments fa-fw" aria-hidden="true"></i>&nbsp;评论</h4>
+        
+        
+        
+          
+            <section id="comments">
+              <div id="valine_container" class="valine_thread">
+                <i class="fas fa-spinner fa-spin fa-fw"></i>
+              </div>
+            </section>
+          
+        
+      
+    </section>
+  </article>
+
+
+
+<script>
+    window.subData = {
+        title: '共用一个评论框',
+        tools: true
+    }
+</script>
 
 
         </div>
@@ -794,6 +828,44 @@
   
   
   
+    
+      
+      
+      
+        
+          <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+          
+            
+              <script src="/js/volantis.js"></script>
+            
+          
+          <script>
+          var GUEST_INFO = ['nick','mail','link'];
+          var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+            return GUEST_INFO.indexOf(item) > -1
+          });
+          var notify = 'false' == true;
+          var verify = 'false' == true;
+          var valine = new Valine();
+          valine.init({
+            el: '#valine_container',
+            notify: notify,
+            verify: verify,
+            guest_info: guest_info,
+            
+              path: "/top/",
+            
+            appId: "JcTvr8gueH5Vw9JdSQnUL5Re-gzGzoHsz",
+            appKey: "ewmqvJBvHh519aBgBpQnNJNW",
+            placeholder: "你觉得共用一个评论框有意义吗？",
+            pageSize:'10',
+            avatar:'robohash',
+            lang:'zh-cn',
+            highlight:''
+          })
+          </script>
+        
+      
     
   
   

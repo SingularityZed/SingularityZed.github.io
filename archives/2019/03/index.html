@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>Category: Angular | 奇点之光</title>
+  <title>Archives: 2019/3 | 奇点之光</title>
   
   
 
@@ -173,8 +173,9 @@
     <div class='container clearfix'>
         <div class='l_main'>
             
+	
     <script>
-        window.subData= { title:'分类 : Angular'}
+        window.subData= { title:'year : 2019.3'}
     </script>
 
 
@@ -293,9 +294,57 @@
   <div class="meta" id="header-meta">
     
       <h2 class="title">
-          <a href="/2013/12/24/categories/">
+          <a href="/2019/03/02/隐藏meta信息/">
               
-                  Categories
+                  隐藏meta信息
+              
+          </a>
+      </h2>
+    
+
+    
+
+    
+
+    
+
+    
+
+  </div>
+</section>
+
+    <section class="article typo">
+        <p>在Front-matter找到或者新增<code>meta</code>，需要隐藏哪个meta标签将其置为<code>false</code>。例如：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">隐藏meta信息</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">hide</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  date:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  categories:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  counter:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  updated:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  share:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  tags:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+<p>这只会在page页面内生效而不会在列表中生效。</p>
+
+        
+
+        
+            <div class="full-width auto-padding tags">
+                
+                    <a href="/tags/hide/"><i class="fas fa-hashtag fa-fw"></i>hide</a>
+                
+            </div>
+        
+    </section>
+</article>
+
+        </div>
+      
+    
+      
+        <div class="post-wrapper">
+          <article class="post reveal ">
+    
+<section class="meta">
+  
+  <div class="meta" id="header-meta">
+    
+      <h2 class="title">
+          <a href="/2019/03/02/摘要注意事项/">
+              
+                  摘要注意事项
               
           </a>
       </h2>
@@ -303,7 +352,7 @@
 
     
       <time class="metatag time">
-        <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;2013-12-24
+        <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;2019-03-02
       </time>
     
 
@@ -311,7 +360,7 @@
       
     
     <div class="metatag cats">
-        <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;<a class="categories" href="/categories/Java/">Java</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/">Python</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/Angular/">Angular</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/Angular/LOL/">LOL</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/Angular/LOL/Hearthstone/">Hearthstone</a>&nbsp;/&nbsp;<a class="categories" href="/categories/Java/Python/Angular/LOL/Hearthstone/Video/">Video</a>
+        <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;<a class="categories" href="/categories/教程/">教程</a>
     </div>
 
 
@@ -325,7 +374,172 @@
 </section>
 
     <section class="article typo">
-        <p>This post contains 6 categories. Make sure your theme can display all of the categories.</p>
+        <p>如果使用<code>&lt;!-- more --&gt;</code>来实现摘要，则<code>&lt;!-- more --&gt;</code>前后一定要有空行，不然可能导致显示错位。</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">这是摘要</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;!--</span> <span class="string">more</span> <span class="bullet">--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是正文</span></span><br></pre></td></tr></table></figure>
+
+        
+
+        
+    </section>
+</article>
+
+        </div>
+      
+    
+      
+        <div class="post-wrapper">
+          <article class="post reveal ">
+    
+<section class="meta">
+  
+  <div class="meta" id="header-meta">
+    
+      <h2 class="title">
+          <a href="/2019/03/02/多语言/">
+              
+                  多语言
+              
+          </a>
+      </h2>
+    
+
+    
+      <time class="metatag time">
+        <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;2019-03-02
+      </time>
+    
+
+    
+      
+    
+    <div class="metatag cats">
+        <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;<a class="categories" href="/categories/教程/">教程</a>
+    </div>
+
+
+    
+
+    
+
+    
+
+  </div>
+</section>
+
+    <section class="article typo">
+        <p>在主目录找到或者新增<code>language</code>，例如：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">language:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">en</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-HK</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-TW</span></span><br></pre></td></tr></table></figure>
+<p>博客将按照给定的优先级显示语言。</p>
+
+        
+
+        
+    </section>
+</article>
+
+        </div>
+      
+    
+      
+        <div class="post-wrapper">
+          <article class="post reveal ">
+    
+<section class="meta">
+  
+  <div class="meta" id="header-meta">
+    
+      <h2 class="title">
+          <a href="/2019/03/02/共用一个评论框/">
+              
+                  共用一个评论框
+              
+          </a>
+      </h2>
+    
+
+    
+      <time class="metatag time">
+        <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;2019-03-02
+      </time>
+    
+
+    
+      
+    
+    <div class="metatag cats">
+        <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>&nbsp;<a class="categories" href="/categories/教程/">教程</a>
+    </div>
+
+
+    
+
+    
+
+    
+
+  </div>
+</section>
+
+    <section class="article typo">
+        <p>写法示例：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">共用一个评论框</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">你觉得共用一个评论框有意义吗？</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+        
+
+        
+    </section>
+</article>
+
+        </div>
+      
+    
+      
+    
+      
+        <div class="post-wrapper">
+          <article class="post reveal ">
+    
+<section class="meta">
+  
+  <div class="meta" id="header-meta">
+    
+      <h2 class="title">
+          <a href="/2019/03/02/hello-world/">
+              
+                  Hello World
+              
+          </a>
+      </h2>
+    
+
+    
+      <time class="metatag time">
+        <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;2019-03-02
+      </time>
+    
+
+    
+      
+
+    
+
+    
+
+    
+
+  </div>
+</section>
+
+    <section class="article typo">
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
         
 
@@ -341,6 +555,8 @@
 
 
 <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
+
+
 
 
 

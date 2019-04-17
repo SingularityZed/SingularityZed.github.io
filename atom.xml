@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://singularityzed.github.io/"/>
-  <updated>2019-01-22T09:40:12.176Z</updated>
+  <updated>2019-01-23T09:58:36.898Z</updated>
   <id>https://singularityzed.github.io/</id>
   
   <author>
@@ -17,34 +17,10 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>摘要注意事项</title>
-    <link href="https://singularityzed.github.io/2019/01/22/%E6%91%98%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
-    <id>https://singularityzed.github.io/2019/01/22/摘要注意事项/</id>
-    <published>2019-01-22T09:41:12.832Z</published>
-    <updated>2019-01-22T09:40:12.176Z</updated>
-    
-    <content type="html"><![CDATA[<p>如果使用<code>&lt;!-- more --&gt;</code>来实现摘要，则<code>&lt;!-- more --&gt;</code>前后一定要有空行，不然可能导致显示错位。</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">这是摘要</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;!--</span> <span class="string">more</span> <span class="bullet">--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是正文</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;如果使用&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;来实现摘要，则&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;前后一定要有空行，不然可能导致显示错位。&lt;/p&gt;
-&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;
-      
-    
-    </summary>
-    
-      <category term="教程" scheme="https://singularityzed.github.io/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>隐藏meta信息</title>
-    <link href="https://singularityzed.github.io/2019/01/22/%E9%9A%90%E8%97%8Fmeta%E4%BF%A1%E6%81%AF/"/>
-    <id>https://singularityzed.github.io/2019/01/22/隐藏meta信息/</id>
-    <published>2019-01-22T09:41:12.831Z</published>
+    <link href="https://singularityzed.github.io/2019/03/02/%E9%9A%90%E8%97%8Fmeta%E4%BF%A1%E6%81%AF/"/>
+    <id>https://singularityzed.github.io/2019/03/02/隐藏meta信息/</id>
+    <published>2019-03-02T03:37:21.826Z</published>
     <updated>2019-01-23T09:58:36.898Z</updated>
     
     <content type="html"><![CDATA[<p>在Front-matter找到或者新增<code>meta</code>，需要隐藏哪个meta标签将其置为<code>false</code>。例如：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">隐藏meta信息</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">教程</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">hide</span></span><br><span class="line"><span class="attr">meta:</span></span><br><span class="line"><span class="attr">  date:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  categories:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  counter:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  updated:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  share:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">  tags:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure><p>这只会在page页面内生效而不会在列表中生效。</p>]]></content>
@@ -67,20 +43,20 @@
   </entry>
   
   <entry>
-    <title>共用一个评论框</title>
-    <link href="https://singularityzed.github.io/2019/01/22/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/"/>
-    <id>https://singularityzed.github.io/2019/01/22/共用一个评论框/</id>
-    <published>2019-01-22T09:41:12.827Z</published>
-    <updated>2019-01-22T09:40:12.175Z</updated>
+    <title>摘要注意事项</title>
+    <link href="https://singularityzed.github.io/2019/03/02/%E6%91%98%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <id>https://singularityzed.github.io/2019/03/02/摘要注意事项/</id>
+    <published>2019-03-02T03:37:21.820Z</published>
+    <updated>2019-01-22T09:40:12.176Z</updated>
     
-    <content type="html"><![CDATA[<p>写法示例：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">共用一个评论框</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">你觉得共用一个评论框有意义吗？</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>如果使用<code>&lt;!-- more --&gt;</code>来实现摘要，则<code>&lt;!-- more --&gt;</code>前后一定要有空行，不然可能导致显示错位。</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">这是摘要</span></span><br><span class="line"></span><br><span class="line"><span class="string">&lt;!--</span> <span class="string">more</span> <span class="bullet">--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="string">这是正文</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;写法示例：&lt;/p&gt;
-&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;
+        &lt;p&gt;如果使用&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;来实现摘要，则&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;前后一定要有空行，不然可能导致显示错位。&lt;/p&gt;
+&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;
       
     
     </summary>
@@ -92,9 +68,9 @@
   
   <entry>
     <title>多语言</title>
-    <link href="https://singularityzed.github.io/2019/01/22/%E5%A4%9A%E8%AF%AD%E8%A8%80/"/>
-    <id>https://singularityzed.github.io/2019/01/22/多语言/</id>
-    <published>2019-01-22T09:41:12.826Z</published>
+    <link href="https://singularityzed.github.io/2019/03/02/%E5%A4%9A%E8%AF%AD%E8%A8%80/"/>
+    <id>https://singularityzed.github.io/2019/03/02/多语言/</id>
+    <published>2019-03-02T03:37:21.818Z</published>
     <updated>2019-01-22T09:40:12.176Z</updated>
     
     <content type="html"><![CDATA[<p>在主目录找到或者新增<code>language</code>，例如：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">language:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">en</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-HK</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-TW</span></span><br></pre></td></tr></table></figure><p>博客将按照给定的优先级显示语言。</p>]]></content>
@@ -115,10 +91,34 @@
   </entry>
   
   <entry>
+    <title>共用一个评论框</title>
+    <link href="https://singularityzed.github.io/2019/03/02/%E5%85%B1%E7%94%A8%E4%B8%80%E4%B8%AA%E8%AF%84%E8%AE%BA%E6%A1%86/"/>
+    <id>https://singularityzed.github.io/2019/03/02/共用一个评论框/</id>
+    <published>2019-03-02T03:37:21.816Z</published>
+    <updated>2019-01-22T09:40:12.175Z</updated>
+    
+    <content type="html"><![CDATA[<p>写法示例：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">共用一个评论框</span></span><br><span class="line"><span class="attr">valine:</span></span><br><span class="line"><span class="attr">  path:</span> <span class="string">/top/</span></span><br><span class="line"><span class="attr">  placeholder:</span> <span class="string">你觉得共用一个评论框有意义吗？</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;写法示例：&lt;/p&gt;
+&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;
+      
+    
+    </summary>
+    
+      <category term="教程" scheme="https://singularityzed.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>置顶</title>
-    <link href="https://singularityzed.github.io/2019/01/22/top/"/>
-    <id>https://singularityzed.github.io/2019/01/22/top/</id>
-    <published>2019-01-22T09:41:12.823Z</published>
+    <link href="https://singularityzed.github.io/2019/03/02/top/"/>
+    <id>https://singularityzed.github.io/2019/03/02/top/</id>
+    <published>2019-03-02T03:37:21.808Z</published>
     <updated>2019-01-23T06:47:11.123Z</updated>
     
     <content type="html"><![CDATA[<p>文章的Front-matter填写<code>top: true</code>就置顶了。<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">top:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></p><p>这是一个示例博客。源码目录：<a href="https://github.com/mxclub/example" target="_blank" rel="noopener">https://github.com/mxclub/example</a></p><a id="more"></a><p><img class="emoji tieba" src="https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/tieba/捂嘴笑.png">没有更多了哦。</p>]]></content>
@@ -136,24 +136,10 @@
   </entry>
   
   <entry>
-    <title>My New Post</title>
-    <link href="https://singularityzed.github.io/2019/01/22/My-New-Post/"/>
-    <id>https://singularityzed.github.io/2019/01/22/My-New-Post/</id>
-    <published>2019-01-22T04:05:04.000Z</published>
-    <updated>2019-01-22T04:05:04.884Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
-    <link href="https://singularityzed.github.io/2019/01/22/hello-world/"/>
-    <id>https://singularityzed.github.io/2019/01/22/hello-world/</id>
-    <published>2019-01-22T02:33:16.635Z</published>
+    <link href="https://singularityzed.github.io/2019/03/02/hello-world/"/>
+    <id>https://singularityzed.github.io/2019/03/02/hello-world/</id>
+    <published>2019-03-02T03:37:21.789Z</published>
     <updated>2019-01-22T02:33:16.635Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
@@ -164,6 +150,20 @@
       
         &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
       
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My New Post</title>
+    <link href="https://singularityzed.github.io/2019/01/22/My-New-Post/"/>
+    <id>https://singularityzed.github.io/2019/01/22/My-New-Post/</id>
+    <published>2019-01-22T04:05:04.000Z</published>
+    <updated>2019-01-22T04:05:04.884Z</updated>
+    
+    <summary type="html">
     
     </summary>
     
